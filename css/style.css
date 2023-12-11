@@ -22,13 +22,13 @@ li {
 }
 
 a {
-  color: blue;
+  color: hsl(196.67deg 77.42% 63.53%);
   text-decoration: underline;
 }
 
 /* UTILS */
 .container {
-  max-width: 1080px;
+  max-width: 70%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -71,13 +71,25 @@ header p {
 
 .cards-box .card {
   float: left;
-  width: calc(100% / 3 - 10px);
-  margin: 5px;
+  width: calc(100% / 3 - 40px);
+  margin: 20px;
   background-color: black;
   color: white;
+  box-shadow: 0px 0px 15px 2px #888888;
 }
 
-.card img {
+.card .img-card img {
   height: 100px;
   display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.card .card-text h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.card .card-text p {
+  margin: 5px;
 }
